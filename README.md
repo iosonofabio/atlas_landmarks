@@ -1,16 +1,25 @@
 # Cell Atlas Averages
+If you are automating data access, please use the [TSV table](https://github.com/iosonofabio/atlas_averages/raw/master/table.tsv').
 
 ## Homo sapiens
 - Brain atlas by Darmanis et al. 2015
+  - Technology: **SmartSeq2**
   - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015.loom)
   - [without fetal data](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015_nofetal.loom)
 
 - Pancreas ageing atlas by Enge et al. 2017
+  - Technology: **SmartSeq2**
   - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Enge_2017.loom)
+
+- Blood (peripheral) by Zanini, Robinson et al. 2018
+  - Technology: **SmartSeq2**
+  - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_blood_Zanini_2018.loom)
+
+- B cells (peripheral) by Croote et al. ?? (TODO)
   
 ## Mus musculus
 - Tabula muris by Tabula Muris Consortium 2018
-  - plates
+  - Technology: **SmartSeq2**
     - [Aorta](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_aorta_TabulaMuris_2018_FACS.loom)
     - [Bladder](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_bladder_TabulaMuris_2018_FACS.loom)
     - [Brain](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_brain_TabulaMuris_2018_FACS.loom)
@@ -30,4 +39,5 @@
     - [Thymus](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_thymus_TabulaMuris_2018_FACS.loom)
     - [Tongue](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_tongue_TabulaMuris_2018_FACS.loom)
     - [Trachea](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_trachea_TabulaMuris_2018_FACS.loom)
-  - 10X genomics: (TODO)
+  - Technology: **10X genomics**
+    - (TODO)
