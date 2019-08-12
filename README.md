@@ -1,5 +1,3 @@
-# Cell Atlas Averages
-
 ## Homo sapiens
 - Brain atlas by Darmanis et al. 2015
   - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015.loom)
