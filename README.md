@@ -4,6 +4,9 @@
 - Brain atlas by Darmanis et al. 2015
   - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015.loom)
   - [without fetal data](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015_nofetal.loom)
+
+- Pancreas ageing atlas by Enge et al. 2017
+  - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Enge_2017.loom)
   
 ## Mus musculus
 - Tabula muris by Tabula Muris Consortium 2018
