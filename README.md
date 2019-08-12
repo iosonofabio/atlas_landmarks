@@ -1,4 +1,4 @@
-If you are automating data access, please use the [TSV table](https://github.com/iosonofabio/atlas_averages/raw/master/table.tsv').
+If you are automating data access, please use the [TSV table](https://github.com/iosonofabio/atlas_averages/raw/master/table.tsv).
 
 ## Homo sapiens
 - Brain atlas by Darmanis et al. 2015
