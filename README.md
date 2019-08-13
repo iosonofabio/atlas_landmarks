@@ -42,3 +42,8 @@ If you are automating data access, please use the [TSV table](https://github.com
     - [Trachea](https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_trachea_TabulaMuris_2018_FACS.loom)
   - Technology: **10X genomics**
     - (TODO)
+
+- Brain atlas Zeisel et al. 2018 ([mousebrain.org](http://www.mousebrain.org))
+  - Technology: **10X genomics 3'**
+  - [full](https://storage.googleapis.com/linnarsson-lab-loom/l5_all.agg.loom)
+  - **Note:**this dataset has a high resolution in terms of neuronal types, hence it is also large.
