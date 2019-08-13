@@ -43,7 +43,7 @@ If you are automating data access, please use the [TSV table](https://github.com
   - Technology: **10X genomics**
     - (TODO)
 
-- Brain atlas Zeisel et al. 2018 ([mousebrain.org](http://www.mousebrain.org))
+- Brain atlas by Zeisel et al. 2018 ([mousebrain.org](http://www.mousebrain.org))
   - Technology: **10X genomics 3'**
   - [full](https://storage.googleapis.com/linnarsson-lab-loom/l5_all.agg.loom)
-  - **Note:**this dataset has a high resolution in terms of neuronal types, hence it is also large.
+  - **Note:**high-resolution, large dataset.
