@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: Cell atlas averages
-description: A collection of used-to-be single cell gene expression data, averaged by cell type
+description: Used-to-be single cell gene expression data, now averaged by cell type
 logo: static/logo.png
