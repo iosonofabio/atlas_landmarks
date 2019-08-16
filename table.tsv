@@ -2,6 +2,7 @@ Species	Technology	Tissue	Ages	Reference	URL	Notes
 Homo sapiens	SmartSeq2	brain	fetal,adult	Darmanis et al. PNAS (2015)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015.loom	
 Homo sapiens	SmartSeq2	brain	adult	Darmanis et al. PNAS (2015)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015_nofetal.loom	no fetal data
 Homo sapiens	SmartSeq2	pancreas	fetal,adult	Enge et al. Cell (2017)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Enge_2017.loom	
+Homo sapiens	Fluidigm C1	pancreas	adult	Stitzel et al. Genome Research (2016)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Stitzel_2016.loom
 Homo sapiens	SmartSeq2	blood	adult	Zanini, Robinson et al. PNAS (2018)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_blood_Zanini_2018.loom	
 Homo sapiens	SmartSeq2	blood	children	Croote et al. Science (2018)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_Bcells_Croote_2018.loom	
 Mus musculus	SmartSeq2	aorta	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_aorta_TabulaMuris_2018_FACS.loom	
