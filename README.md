@@ -20,11 +20,11 @@ If you are automating data access, please use the [TSV table](https://github.com
 
 - Blood (peripheral) by Zanini, Robinson et al. 2018
   - Technology: **SmartSeq2**
-  - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_blood_Zanini_2018.loom)
+  - [healthy controls](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_blood_Zanini_2018.loom)
 
 - B cells (peripheral blood) by Croote et al. 2019
   - Technology: **SmartSeq2**
-  - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_Bcells_Croote_2018.loom)
+  - [half (higher quality)](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_Bcells_Croote_2018.loom)
   
 ## Mus musculus
 - Tabula muris by Tabula Muris Consortium 2018
