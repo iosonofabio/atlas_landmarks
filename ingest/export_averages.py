@@ -19,6 +19,54 @@ from singlet import Dataset, CountsTable, FeatureSheet, SampleSheet
 
 if __name__ == '__main__':
 
+    print('Baron et al. 2016')
+    print('Read data and average')
+    with loompy.connect('../data/pancreas_atlas3/dataset.loom') as dsl:
+        cts = dsl.ca['cellType']
+        ctu = np.unique(cts)
+        n_fixed = len(ctu)
+        n_cells = Counter(cts)
+        n_cells = np.array([n_cells[ct] for ct in ctu])
+
+        # Exclude ERCC spike-ins and QC features
+        features = dsl.ra['GeneName']
+        ind_fea = [not (fea.startswith('ERCC-') or fea.startswith('_')) for fea in features]
+        features = features[ind_fea]
+        L = len(features)
+
+        matrix = np.zeros((L, n_fixed), dtype=np.float32)
+        for i in range(n_fixed):
+            ind = cts == ctu[i]
+            submat = dsl[:, ind]
+            submat = submat[ind_fea]
+
+            # Normalize
+            submat *= 1e6 / submat.sum(axis=0)
+
+            # Aritmetic average
+            matrix[:, i] = submat.mean(axis=1)
+
+    print('Export data')
+    loompy.create(
+        '../data/export_averages/human_pancreas_Baron_2016.loom',
+        layers={'': matrix},
+        row_attrs={'GeneName': features},
+        col_attrs={
+            'CellType': ctu,
+            'NumberOfCells': n_cells,
+            },
+        file_attrs={
+            'Normalization': 'counts per million reads',
+            'Averaging': 'aritmetic after normalization',
+            'Species': 'Homo Sapiens',
+            'Tissue': 'pancreas',
+            'Age': 'adult',
+            'Number of cells': sum(n_cells),
+            },
+        )
+
+    sys.exit()
+
     print('Stitzel et al. 2016')
     print('Read data and average')
     with loompy.connect('../data/pancreas_atlas2/dataset.loom') as dsl:
@@ -64,9 +112,6 @@ if __name__ == '__main__':
             'Number of cells': sum(n_cells),
             },
         )
-
-    sys.exit()
-
 
     print('Croote et al. 2018')
     print('Read data and average')

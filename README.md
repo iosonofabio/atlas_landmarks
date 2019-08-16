@@ -14,6 +14,10 @@ If you are automating data access, please use the [TSV table](https://github.com
   - Technology: **Fluidigm C1**
   - [no diabetes patients](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Stitzel_2016.loom)
 
+- Pancreas atlas by Baron et al. 2016
+  - Technology: **InDrop**
+  - [no diabetes patients](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Baron_2016.loom)
+
 - Blood (peripheral) by Zanini, Robinson et al. 2018
   - Technology: **SmartSeq2**
   - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_blood_Zanini_2018.loom)
