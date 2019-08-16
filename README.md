@@ -10,7 +10,7 @@ If you are automating data access, please use the [TSV table](https://github.com
   - Technology: **SmartSeq2**
   - [full](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Enge_2017.loom)
 
-- Panreas atlas by Stitzel et al. 2016
+- Pancreas atlas by Stitzel et al. 2016
   - Technology: **Fluidigm C1**
   - [no diabetes patients](https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Stitzel_2016.loom)
 
