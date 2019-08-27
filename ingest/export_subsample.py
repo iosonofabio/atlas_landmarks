@@ -2,7 +2,7 @@
 '''
 author:     Fabio Zanini
 date:       11/08/19
-content:    Export various atlas averages to file for github repo.
+content:    Export various atlas subsamples to file for github repo.
 '''
 import os
 import sys
@@ -38,7 +38,9 @@ def discover_datasets():
     return datasets
 
 
-class AtlasAverager():
+class AtlasSubsampler():
+    n = 20
+
     def __init__(self, name, tissue):
         self.name = name
         self.tissue = tissue
@@ -53,7 +55,7 @@ class AtlasAverager():
             self.full_filename = fdn+'/dataset_{:}.loom'.format(self.tissue)
 
     def get_output_filename(self, metaname):
-        fdn = '../data/averages/'
+        fdn = '../data/subsamples/'
         if self.tissue is None:
             return fdn+metaname+'.loom'
         else:
@@ -78,13 +80,15 @@ class AtlasAverager():
 
     def process_atlas(self):
         print(self.name)
-        print('Read data and average')
+        print('Read data and subsample')
         with loompy.connect(self.full_filename) as dsl:
             cts = dsl.ca['cellType']
             n_cells = Counter(cts)
             n_cells_tot = sum(n_cells.values(), 0)
-            ctu = list(n_cells.keys())
-            N = len(ctu)
+            for ct, ni in n_cells.items():
+                if ni > self.n:
+                    n_cells[ct] = self.n
+            N = sum(n_cells.values(), 0)
 
             # Exclude ERCC spike-ins and QC features
             features = dsl.ra['GeneName']
@@ -92,11 +96,17 @@ class AtlasAverager():
             features = features[ind_fea]
             L = len(features)
 
+            i = 0
             matrix = np.zeros((L, N), dtype=np.float32)
             lstring = max([len(ct) for ct in n_cells])
-            cnames = np.array(ctu, dtype='U'+str(lstring + 12))
-            for i, ct in enumerate(ctu):
-                ind = (cts == ct)
+            meta = np.zeros(N, dtype='U'+str(lstring))
+            cnames = np.zeros(N, dtype='U'+str(lstring + 12))
+            for ct, ni in n_cells.items():
+                ind = (cts == ct).nonzero()[0]
+
+                # Subsample
+                np.random.shuffle(ind)
+                ind = np.sort(ind[:ni])
 
                 submat = dsl[:, ind]
                 submat = submat[ind_fea]
@@ -104,8 +114,11 @@ class AtlasAverager():
                 # Normalize
                 submat *= 1e6 / submat.sum(axis=0)
 
-                # Aritmetic average
-                matrix[:, i] = submat.mean(axis=1)
+                # Populate output matrices
+                matrix[:, i: i+ni] = submat
+                meta[i: i+ni] = ct
+                cnames[i: i+ni] = [ct+'_'+str(j+1) for j in range(ni)]
+                i += ni
 
         for filtname, fun in self.filters.items():
             if filtname:
@@ -127,7 +140,8 @@ class AtlasAverager():
                 layers={'': matrix},
                 row_attrs={'GeneName': features},
                 col_attrs={
-                    'CellType': cnames,
+                    'CellType': meta,
+                    'CellName': cnames,
                     },
                 file_attrs=file_attrs,
                 )
@@ -139,5 +153,5 @@ if __name__ == '__main__':
 
     for dsname, tissues in datasets.items():
         for tissue in tissues:
-            exporter = AtlasAverager(dsname, tissue)
+            exporter = AtlasSubsampler(dsname, tissue)
             exporter.process_atlas()

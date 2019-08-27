@@ -1,0 +1,54 @@
+Darmanis_2015:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'brain'
+ 'Age': 'fetal and adult'
+
+Darmanis_2015_nofetal:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'brain'
+ 'Age': 'adult only (no fetal)'
+
+Enge_2017:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'pancreas'
+ 'Age': 'fetal and adult'
+
+Baron_2016:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'pancreas'
+ 'Age': 'adult'
+
+Stitzel_2016:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'pancreas'
+ 'Age': 'adult'
+
+Croote_2018:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'peripheral blood'
+ 'Age': 'children'
+
+Zanini_2018:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'peripheral blood'
+ 'Age': 'adult'
+
+Tabula_muris_2018_FACS:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Mus Musculus'
+ 'Age': '3 months'
