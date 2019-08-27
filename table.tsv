@@ -1,28 +1,28 @@
 Name	Species	Technology	Tissue	Ages	Reference	URL	Notes
-Darmanis_2015	Homo sapiens	SmartSeq2	brain	fetal,adult	Darmanis et al. PNAS (2015)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015.loom	
-Darmanis_2015_nofetal	Homo sapiens	SmartSeq2	brain	adult	Darmanis et al. PNAS (2015)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_brain_Darmanis_2015_nofetal.loom	no fetal data
-Enge_2017	Homo sapiens	SmartSeq2	pancreas	fetal,adult	Enge et al. Cell (2017)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Enge_2017.loom	
-Stitzel_2016	Homo sapiens	Fluidigm C1	pancreas	adult	Stitzel et al. Genome Research (2016)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Stitzel_2016.loom
-Baron_2016	Homo sapiens	InDrop	pancreas	adult	Baron et al. Cell Systems (2016)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_pancreas_Baron_2016.loom
-Zanini_2018	Homo sapiens	SmartSeq2	blood	adult	Zanini, Robinson et al. PNAS (2018)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_blood_Zanini_2018.loom	
-Croote_2018	Homo sapiens	SmartSeq2	blood	children	Croote et al. Science (2018)	https://github.com/iosonofabio/atlas_averages/raw/master/data/human_Bcells_Croote_2018.loom	
-TabulaMuris_2018_aorta	Mus musculus	SmartSeq2	aorta	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_aorta_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_bladder	Mus musculus	SmartSeq2	bladder	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_bkadder_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_brain	Mus musculus	SmartSeq2	brain	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_brain_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_diaphragm	Mus musculus	SmartSeq2	diaphragm	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_diaphragm_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_fat	Mus musculus	SmartSeq2	fat	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_fat_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_heart	Mus musculus	SmartSeq2	heart	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_heart_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_intestine	Mus musculus	SmartSeq2	intestine	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_intestine_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_kidney	Mus musculus	SmartSeq2	kidney	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_kidney_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_liver	Mus musculus	SmartSeq2	liver	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_liver_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_lung	Mus musculus	SmartSeq2	lung	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_lung_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_mammarygland	Mus musculus	SmartSeq2	mammary gland	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_mammary_gland_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_marrow	Mus musculus	SmartSeq2	marrow	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_marrow_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_muscle	Mus musculus	SmartSeq2	muscle	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_muscle_TabulaMuris_2018_FACS.loom	skeletal (limb) muscle only
-TabulaMuris_2018_pancreas	Mus musculus	SmartSeq2	pancreas	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_muscle_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_skin	Mus musculus	SmartSeq2	skin	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_pancreas_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_spleen	Mus musculus	SmartSeq2	spleen	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_spleen_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_thymus	Mus musculus	SmartSeq2	thymus	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_thymus_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_tongue	Mus musculus	SmartSeq2	tongue	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_tongue_TabulaMuris_2018_FACS.loom	
-TabulaMuris_2018_trachea	Mus musculus	SmartSeq2	trachea	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/mouse_trachea_TabulaMuris_2018_FACS.loom	
+Darmanis_2015	Homo sapiens	SmartSeq2	brain	fetal,adult	Darmanis et al. PNAS (2015)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Darmanis_2015.loom	
+Darmanis_2015_nofetal	Homo sapiens	SmartSeq2	brain	adult	Darmanis et al. PNAS (2015)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Darmanis_2015_nofetal.loom	no fetal data
+Enge_2017	Homo sapiens	SmartSeq2	pancreas	fetal,adult	Enge et al. Cell (2017)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Enge_2017.loom	
+Stitzel_2016	Homo sapiens	Fluidigm C1	pancreas	adult	Stitzel et al. Genome Research (2016)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Stitzel_2016.loom
+Baron_2016	Homo sapiens	InDrop	pancreas	adult	Baron et al. Cell Systems (2016)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Baron_2016.loom
+Zanini_2018	Homo sapiens	SmartSeq2	blood	adult	Zanini, Robinson et al. PNAS (2018)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Zanini_2018.loom	
+Croote_2018	Homo sapiens	SmartSeq2	blood	children	Croote et al. Science (2018)	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Croote_2018.loom	
+TabulaMuris_2018_aorta	Mus musculus	SmartSeq2	aorta	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_aorta.loom	
+TabulaMuris_2018_bladder	Mus musculus	SmartSeq2	bladder	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_bladder.loom	
+TabulaMuris_2018_brain	Mus musculus	SmartSeq2	brain	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_brain.loom	
+TabulaMuris_2018_diaphragm	Mus musculus	SmartSeq2	diaphragm	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_diaphragm.loom	
+TabulaMuris_2018_fat	Mus musculus	SmartSeq2	fat	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_fat.loom	
+TabulaMuris_2018_heart	Mus musculus	SmartSeq2	heart	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_heart.loom	
+TabulaMuris_2018_intestine	Mus musculus	SmartSeq2	intestine	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_intestine.loom	
+TabulaMuris_2018_kidney	Mus musculus	SmartSeq2	kidney	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_kidney.loom	
+TabulaMuris_2018_liver	Mus musculus	SmartSeq2	liver	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_liver.loom	
+TabulaMuris_2018_lung	Mus musculus	SmartSeq2	lung	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_lung.loom	
+TabulaMuris_2018_mammarygland	Mus musculus	SmartSeq2	mammary gland	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_mammary_gland.loom	
+TabulaMuris_2018_marrow	Mus musculus	SmartSeq2	marrow	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_marrow.loom	
+TabulaMuris_2018_muscle	Mus musculus	SmartSeq2	muscle	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_muscle.loom	skeletal (limb) muscle only
+TabulaMuris_2018_pancreas	Mus musculus	SmartSeq2	pancreas	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_pancreas.loom	
+TabulaMuris_2018_skin	Mus musculus	SmartSeq2	skin	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_skin.loom	
+TabulaMuris_2018_spleen	Mus musculus	SmartSeq2	spleen	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_spleen.loom	
+TabulaMuris_2018_thymus	Mus musculus	SmartSeq2	thymus	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_thymus.loom	
+TabulaMuris_2018_tongue	Mus musculus	SmartSeq2	tongue	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_tongue.loom	
+TabulaMuris_2018_trachea	Mus musculus	SmartSeq2	trachea	3 months	https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/TabulaMuris_2018_FACS_trachea.loom	
 Zeisel_2018	Mus musculus	10X genomics 3'	brain	adult	Zeisel et al. Cell (2018)	https://storage.googleapis.com/linnarsson-lab-loom/l5_all.agg.loom	see www.mousebrain.com
