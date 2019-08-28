@@ -52,3 +52,10 @@ Tabula_muris_2018_FACS:
  'Averaging': 'aritmetic after normalization'
  'Species': 'Mus Musculus'
  'Age': '3 months'
+
+Aizaran_2019:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'liver'
+ 'Age': 'adult'

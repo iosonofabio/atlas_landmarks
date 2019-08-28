@@ -25,6 +25,10 @@ If you are automating data access, please use the [TSV table](https://github.com
 - B cells (peripheral blood) by Croote et al. 2019
   - Technology: **SmartSeq2**
   - [half (higher quality)](https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Croote_2018.loom)
+
+- Liver atlas by Aizaran et al. 2019
+  - Technology: **mCEL-Seq2**
+  - [all identifiable clusters](https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Aizaran_2018.loom)
   
 ## Mus musculus
 - Tabula muris by Tabula Muris Consortium 2018

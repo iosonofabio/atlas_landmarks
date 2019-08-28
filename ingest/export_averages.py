@@ -39,9 +39,10 @@ def discover_datasets():
 
 
 class AtlasAverager():
-    def __init__(self, name, tissue):
+    def __init__(self, name, tissue, overwrite=False):
         self.name = name
         self.tissue = tissue
+        self.overwrite = overwrite
         self.get_full_filename()
         self.get_custom_filters()
 
@@ -78,6 +79,22 @@ class AtlasAverager():
 
     def process_atlas(self):
         print(self.name)
+
+        print('Check output files')
+        fns_out = {}
+        for filtname in self.filters:
+            if filtname:
+                print('Export data, {:}'.format(filtname))
+                metaname = self.name+'_'+filtname
+            else:
+                print('Export data')
+                metaname = self.name
+            fns_out[filtname] = self.get_output_filename(metaname)
+
+        if (not self.overwrite) and all(os.path.isfile(x) for x in fns_out.values()):
+            print('Exists already, skipping')
+            return
+
         print('Read data and average')
         with loompy.connect(self.full_filename) as dsl:
             cts = dsl.ca['cellType']
@@ -115,7 +132,7 @@ class AtlasAverager():
                 print('Export data')
                 metaname = self.name
 
-            fn_out = self.get_output_filename(metaname)
+            fn_out = fns_out[filtname]
 
             file_attrs = self.get_atlas_metadata(metaname)
             file_attrs['Number of cells'] = n_cells_tot
@@ -135,9 +152,13 @@ class AtlasAverager():
 
 if __name__ == '__main__':
 
+    pa = argparse.ArgumentParser()
+    pa.add_argument('--overwrite', action='store_true')
+    args = pa.parse_args()
+
     datasets = discover_datasets()
 
     for dsname, tissues in datasets.items():
         for tissue in tissues:
-            exporter = AtlasAverager(dsname, tissue)
+            exporter = AtlasAverager(dsname, tissue, overwrite=args.overwrite)
             exporter.process_atlas()
