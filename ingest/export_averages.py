@@ -112,6 +112,7 @@ class AtlasAverager():
             matrix = np.zeros((L, N), dtype=np.float32)
             lstring = max([len(ct) for ct in n_cells])
             cnames = np.array(ctu, dtype='U'+str(lstring + 12))
+            ncnames = np.array([n_cells[x] for x in ctu])
             for i, ct in enumerate(ctu):
                 ind = (cts == ct)
 
@@ -135,16 +136,28 @@ class AtlasAverager():
             fn_out = fns_out[filtname]
 
             file_attrs = self.get_atlas_metadata(metaname)
-            file_attrs['Number of cells'] = n_cells_tot
+            file_attrs['NumberOfCells'] = n_cells_tot
             if self.tissue is not None:
                 file_attrs['Tissue'] = self.tissue
 
+            # Filter samples and metadata
+            if fun is None:
+                cnames_filt = cnames
+                ncnames_filt = ncnames
+                matrix_filt = matrix
+            else:
+                ind = [fun(x) for x in cnames]
+                cnames_filt = cnames[ind]
+                ncnames_filt = ncnames[ind]
+                matrix_filt = matrix[:, ind]
+
             loompy.create(
                 fn_out,
-                layers={'': matrix},
+                layers={'': matrix_filt},
                 row_attrs={'GeneName': features},
                 col_attrs={
-                    'CellType': cnames,
+                    'CellType': cnames_filt,
+                    'NumberOfCells': ncnames_filt,
                     },
                 file_attrs=file_attrs,
                 )

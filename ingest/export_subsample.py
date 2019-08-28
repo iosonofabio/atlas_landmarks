@@ -152,13 +152,24 @@ class AtlasSubsampler():
             if self.tissue is not None:
                 file_attrs['Tissue'] = self.tissue
 
+            # Filter samples and metadata
+            if fun is None:
+                cnames_filt = cnames
+                meta_filt = meta
+                matrix_filt = matrix
+            else:
+                ind = [fun(x) for x in meta]
+                cnames_filt = cnames[ind]
+                meta_filt = meta[ind]
+                matrix_filt = matrix[:, ind]
+
             loompy.create(
                 fn_out,
-                layers={'': matrix},
+                layers={'': matrix_filt},
                 row_attrs={'GeneName': features},
                 col_attrs={
-                    'CellType': meta,
-                    'CellName': cnames,
+                    'CellName': cnames_filt,
+                    'CellType': meta_filt,
                     },
                 file_attrs=file_attrs,
                 )
