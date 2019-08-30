@@ -109,7 +109,19 @@ class AtlasSubsampler():
 
             # Exclude ERCC spike-ins and QC features
             features = dsl.ra['GeneName']
-            ind_fea = [not (fea.startswith('ERCC-') or fea.startswith('_')) for fea in features]
+            exclude_list = [
+                'too_low_aQual',
+                'alignment_not_unique',
+                'ambiguous',
+                'no_feature',
+                'not_aligned',
+                ]
+            ind_fea = []
+            for fea in features:
+                fea_bool = not fea in exclude_list
+                fea_bool &= not fea.startswith('ERCC-')
+                fea_bool &= not fea.startswith('_')
+                ind_fea.append(fea_bool)
             features = features[ind_fea]
             L = len(features)
 
