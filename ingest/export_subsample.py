@@ -118,7 +118,7 @@ class AtlasSubsampler():
                 ]
             ind_fea = []
             for fea in features:
-                fea_bool = not fea in exclude_list
+                fea_bool = fea not in exclude_list
                 fea_bool &= not fea.startswith('ERCC-')
                 fea_bool &= not fea.startswith('_')
                 ind_fea.append(fea_bool)

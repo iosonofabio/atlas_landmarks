@@ -114,7 +114,7 @@ class AtlasAverager():
                 ]
             ind_fea = []
             for fea in features:
-                fea_bool = not fea in exclude_list
+                fea_bool = fea not in exclude_list
                 fea_bool &= not fea.startswith('ERCC-')
                 fea_bool &= not fea.startswith('_')
                 ind_fea.append(fea_bool)
@@ -126,9 +126,9 @@ class AtlasAverager():
             cnames = np.array(ctu, dtype='U'+str(lstring + 12))
             ncnames = np.array([n_cells[x] for x in ctu])
             for i, ct in enumerate(ctu):
-                ind = (cts == ct)
+                ind_cell = (cts == ct)
 
-                submat = dsl[:, ind]
+                submat = dsl[:, ind_cell]
                 submat = submat[ind_fea]
 
                 # Normalize
