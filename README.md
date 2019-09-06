@@ -1,4 +1,4 @@
-If you are automating data access, please use the [TSV table](https://github.com/iosonofabio/atlas_averages/raw/master/table.tsv). To get atlas subsamples, swap `averages` with `subsamples` in the data URL.
+Also see the [TSV table](https://github.com/iosonofabio/atlas_landmarks/raw/master/table.tsv). To get atlas subsamples, swap `averages` with `subsamples` in the data URLs below.
 
 ## Homo sapiens
 - Brain atlas by Darmanis et al. 2015
