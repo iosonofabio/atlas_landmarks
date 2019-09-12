@@ -29,7 +29,7 @@ Also see the [TSV table](https://github.com/iosonofabio/atlas_landmarks/raw/mast
 
 - Liver atlas by Aizaran et al. 2019
   - Technology: **mCEL-Seq2**
-  - **all identifiable clusters**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Aizaran_2018.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Aizaran_2018.loom)
+  - **all identifiable clusters**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Aizaran_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Aizaran_2019.loom)
   
 ## Mus musculus
 - Tabula muris by Tabula Muris Consortium 2018
