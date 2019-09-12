@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: Atlas landmarks
-description: "Single cell gene expression, averaged or subsampled by cell type"
+description: "Single cell gene expression data, averaged or subsampled by cell type"
 logo: static/logo.png
