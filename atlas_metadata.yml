@@ -19,6 +19,13 @@ Enge_2017:
  'Tissue': 'pancreas'
  'Age': 'fetal and adult'
 
+Enge_2017_manual_reannotation:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'aritmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'pancreas'
+ 'Age': 'fetal and adult'
+
 Baron_2016:
  'Normalization': 'counts per million reads'
  'Averaging': 'aritmetic after normalization'

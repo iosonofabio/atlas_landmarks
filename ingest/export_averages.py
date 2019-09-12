@@ -95,7 +95,7 @@ class AtlasAverager():
             print('Exists already, skipping')
             return
 
-        print('Read data and average')
+        print('Read data and average by cell type')
         with loompy.connect(self.full_filename) as dsl:
             cts = dsl.ca['cellType']
             n_cells = Counter(cts)
@@ -130,6 +130,7 @@ class AtlasAverager():
 
                 submat = dsl[:, ind_cell]
                 submat = submat[ind_fea]
+                submat = submat.astype(np.float32)
 
                 # Normalize
                 submat *= 1e6 / submat.sum(axis=0)

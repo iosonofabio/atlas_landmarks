@@ -139,6 +139,7 @@ class AtlasSubsampler():
 
                 submat = dsl[:, ind]
                 submat = submat[ind_fea]
+                submat = submat.astype(np.float32)
 
                 # Normalize
                 submat *= 1e6 / submat.sum(axis=0)
