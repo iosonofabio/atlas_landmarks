@@ -3,7 +3,7 @@ Also see the [TSV table](https://github.com/iosonofabio/atlas_landmarks/raw/mast
 ## Homo sapiens
 - Brain atlas by Darmanis et al. 2015
   - Technology: **SmartSeq2**
-  - **full**: [averages](https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Darmanis_2015.loom) | [susamples](https://github.com/iosonofabio/atlas_averages/raw/master/data/subsamples/Darmanis_2015.loom)
+  - **full**: [averages](https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Darmanis_2015.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_averages/raw/master/data/subsamples/Darmanis_2015.loom)
   - [without fetal data](https://github.com/iosonofabio/atlas_averages/raw/master/data/averages/Darmanis_2015_nofetal.loom)
 
 - Pancreas ageing atlas by Enge et al. 2017
