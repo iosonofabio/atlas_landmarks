@@ -30,7 +30,7 @@ def discover_datasets():
             if fn == 'dataset.loom':
                 dataset.append(None)
             elif fn.startswith('dataset') and fn.endswith('.loom'):
-                tissue = fn.split('_')[1].split('.')[0]
+                tissue = '_'.join(fn.split('.')[0].split('_')[1:])
                 dataset.append(tissue)
         if dataset:
             datasets[sfdn] = dataset
@@ -80,7 +80,10 @@ class AtlasAverager():
     def process_atlas(self):
         print(self.name)
 
-        print('Check output files')
+        if self.tissue is None:
+            print('Check output files')
+        else:
+            print('{:}: Check output files'.format(self.tissue))
         fns_out = {}
         for filtname in self.filters:
             if filtname:
@@ -95,7 +98,10 @@ class AtlasAverager():
             print('Exists already, skipping')
             return
 
-        print('Read data and average by cell type')
+        if self.tissue is None:
+            print('Read data and average by cell type')
+        else:
+            print('{:}: read data and average by cell type'.format(self.tissue))
         with loompy.connect(self.full_filename) as dsl:
             cts = dsl.ca['cellType']
             n_cells = Counter(cts)

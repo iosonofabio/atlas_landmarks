@@ -59,6 +59,26 @@ Tabula_muris_2018_FACS:
  'Averaging': 'aritmetic after normalization'
  'Species': 'Mus Musculus'
  'Age': '3 months'
+ 'Tissues':
+   - aorta
+   - bladder
+   - brain
+   - diaphragm
+   - fat
+   - heart
+   - kidney
+   - intestine
+   - muscle
+   - liver
+   - lung
+   - mammary_gland
+   - marrow
+   - pancreas
+   - skin
+   - spleen
+   - thymus
+   - tongue
+   - trachea
 
 Aizaran_2019:
  'Normalization': 'counts per million reads'
