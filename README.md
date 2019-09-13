@@ -33,6 +33,10 @@ For programmatic access, see the [TSV table](https://github.com/iosonofabio/atla
   - Technology: **mCEL-Seq2**
   - **all identifiable clusters**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Aizaran_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Aizaran_2019.loom)
   
+- Intestine (colon) atlas by Smillie et al. 2019
+  - Technology: **10X Genomics**
+  - **full**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Smillie_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Smillie_2019.loom)
+  
 ## Mus musculus
 - Tabula muris by Tabula Muris Consortium 2018
   - Technology: **SmartSeq2**

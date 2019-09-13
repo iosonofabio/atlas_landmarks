@@ -138,6 +138,8 @@ class AtlasSubsampler():
             meta = np.zeros(N, dtype='U'+str(lstring))
             cnames = np.zeros(N, dtype='U'+str(lstring + 12))
             for ct, ni in n_cells.items():
+                print('Cell type: {:}'.format(ct))
+
                 ind = (cts == ct).nonzero()[0]
 
                 # Subsample

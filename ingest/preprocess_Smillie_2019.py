@@ -32,7 +32,9 @@ if __name__ == '__main__':
     cells_imm = np.loadtxt(fdn+'Imm.barcodes2.tsv', delimiter='\t', dtype='U50')
 
     print('Set output file')
-    fn_out = '../data_full/Smillie_2019/dataset.loom'
+    fdn_out = '../data_full/Smillie_2019/'
+    fn_out = fdn_out+'dataset.loom'
+    os.makedirs(fdn_out, exist_ok=True)
 
     print('Read FIB count matrix')
     mat_fib = mmread(fdn+'gene_sorted-Fib.matrix.mtx').astype(np.float32)
@@ -131,9 +133,9 @@ if __name__ == '__main__':
             layers={'': mat_imm},
             col_attrs={
                 'CellID': meta_imm.index.values,
-                'CellType': meta_imm['Cluster'].values,
-                'NumberOfGenes': meta_epi['nGene'].astype(int).values,
-                'NumberOfUMI': meta_epi['nUMI'].astype(int).values,
+                'cellType': meta_imm['Cluster'].values,
+                'NumberOfGenes': meta_imm['nGene'].astype(int).values,
+                'NumberOfUMI': meta_imm['nUMI'].astype(int).values,
                 'Subject': meta_imm['Subject'].values,
                 'Location': meta_imm['Location'].values,
                 'Sample': meta_imm['Sample'].values,

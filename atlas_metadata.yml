@@ -1,62 +1,62 @@
 Darmanis_2015:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'brain'
  'Age': 'fetal and adult'
 
 Darmanis_2015_nofetal:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'brain'
  'Age': 'adult only (no fetal)'
 
 Enge_2017:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'pancreas'
  'Age': 'fetal and adult'
 
 Enge_2017_manual_reannotation:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'pancreas'
  'Age': 'fetal and adult'
 
 Baron_2016:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'pancreas'
  'Age': 'adult'
 
 Stitzel_2016:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'pancreas'
  'Age': 'adult'
 
 Croote_2018:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'peripheral blood'
  'Age': 'children'
 
 Zanini_2018:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'peripheral blood'
  'Age': 'adult'
 
 Tabula_muris_2018_FACS:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Mus Musculus'
  'Age': '3 months'
  'Tissues':
@@ -82,7 +82,14 @@ Tabula_muris_2018_FACS:
 
 Aizaran_2019:
  'Normalization': 'counts per million reads'
- 'Averaging': 'aritmetic after normalization'
+ 'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
  'Tissue': 'liver'
+ 'Age': 'adult'
+
+Smillie_2019:
+ 'Normalization': 'counts per million reads'
+ 'Averaging': 'arithmetic after normalization'
+ 'Species': 'Homo Sapiens'
+ 'Tissue': 'intestine'
  'Age': 'adult'
