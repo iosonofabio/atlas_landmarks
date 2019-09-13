@@ -3,12 +3,12 @@ Developed for [northstar](https://github.com/iosonofabio/northstar).
 For programmatic access, see the [TSV table](https://github.com/iosonofabio/atlas_landmarks/raw/master/table.tsv).
 
 ## Homo sapiens
-- Brain atlas by Darmanis et al. 2015
+- Brain atlas by [Darmanis et al. 2015](https://www.pnas.org/content/112/23/7285)
   - Technology: **SmartSeq2**
   - **full**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Darmanis_2015.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Darmanis_2015.loom)
   - **without fetal data**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Darmanis_2015_nofetal.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Darmanis_2015_nofetal.loom)
 
-- Pancreas ageing atlas by Enge et al. 2017
+- Pancreas ageing atlas by [Enge et al. 2017](https://www.sciencedirect.com/science/article/pii/S009286741731053X?via%3Dihub)
   - Technology: **SmartSeq2**
   - **full**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Enge_2017.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Enge_2017.loom)
   - **reannotated**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Enge_2017_manual_reannotation.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_averages/raw/master/data/subsamples/Enge_2017_manual_reannotation.loom)
@@ -34,11 +34,11 @@ For programmatic access, see the [TSV table](https://github.com/iosonofabio/atla
   - **all identifiable clusters**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Aizaran_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Aizaran_2019.loom)
   
 - Intestine (colon) atlas by [Smillie et al. 2019](https://www.sciencedirect.com/science/article/pii/S0092867419307329?via%3Dihub)
-  - Technology: **10X Genomics**
+  - Technology: **10X Genomics 3'**
   - **healthy controls**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Smillie_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Smillie_2019.loom)
   
 ## Mus musculus
-- Tabula muris by Tabula Muris Consortium 2018
+- Tabula muris by [Tabula Muris Consortium 2018](https://www.nature.com/articles/s41586-018-0590-4)
   - Technology: **SmartSeq2**
     - **Aorta**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Tabula_muris_2018_FACS_aorta.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Tabula_muris_2018_FACS_aorta.loom)
     - **Bladder**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Tabula_muris_2018_FACS_bladder.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Tabula_muris_2018_FACS_bladder.loom)
@@ -60,7 +60,7 @@ For programmatic access, see the [TSV table](https://github.com/iosonofabio/atla
     - **Tongue**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Tabula_muris_2018_FACS_tongue.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Tabula_muris_2018_FACS_tongue.loom)
     - **Trachea**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Tabula_muris_2018_FACS_trachea.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Tabula_muris_2018_FACS_trachea.loom)
 
-- Brain atlas by Zeisel et al. 2018 ([mousebrain.org](http://www.mousebrain.org))
-  - Technology: **10X genomics 3'**
+- Brain atlas by [Zeisel et al. 2018](https://www.sciencedirect.com/science/article/pii/S009286741830789X?via%3Dihub) ([mousebrain.org](http://www.mousebrain.org))
+  - Technology: **10X Genomics 3'**
   - **full**: [averages](https://storage.googleapis.com/linnarsson-lab-loom/l5_all.agg.loom)
   - **Note:** this dataset has many neuronal types and is therefore quite large.
