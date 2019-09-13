@@ -13,27 +13,27 @@ For programmatic access, see the [TSV table](https://github.com/iosonofabio/atla
   - **full**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Enge_2017.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Enge_2017.loom)
   - **reannotated**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Enge_2017_manual_reannotation.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_averages/raw/master/data/subsamples/Enge_2017_manual_reannotation.loom)
 
-- Pancreas atlas by Stitzel et al. 2016
+- Pancreas atlas by [Lawlor et al. 2016](https://genome.cshlp.org/content/27/2/208.short)
   - Technology: **Fluidigm C1**
-  - **no diabetes patients**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Stitzel_2016.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Stitzel_2016.loom)
+  - **no diabetes patients**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Lawlor_2016.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Lawlor_2016.loom)
 
-- Pancreas atlas by Baron et al. 2016
+- Pancreas atlas by [Baron et al. 2016](https://www.sciencedirect.com/science/article/pii/S2405471216302666?via%3Dihub)
   - Technology: **InDrop**
   - **no diabetes patients**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Baron_2016.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Baron_2016.loom)
 
-- Blood (peripheral) by Zanini, Robinson et al. 2018
+- Blood (peripheral) by [Zanini, Robinson et al. 2018](https://www.pnas.org/content/115/52/E12363.short?rss=1)
   - Technology: **SmartSeq2**
   - **healthy controls**: [averages](https://github.com/iosonofabio/atlas_ladmarks/raw/master/data/averages/Zanini_2018.loom) ⎮ [susamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Zanini_2018.loom)
 
-- B cells (peripheral blood) by Croote et al. 2019
+- B cells (peripheral blood) by [Croote et al. 2019](https://science.sciencemag.org/content/362/6420/1306.editor-summary)
   - Technology: **SmartSeq2**
   - **half (higher quality)**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Croote_2018.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Croote_2018.loom)
 
-- Liver atlas by Aizaran et al. 2019
+- Liver atlas by [Aizarani et al. 2019](https://www.nature.com/articles/s41586-019-1373-2)
   - Technology: **mCEL-Seq2**
   - **all identifiable clusters**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Aizaran_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Aizaran_2019.loom)
   
-- Intestine (colon) atlas by Smillie et al. 2019
+- Intestine (colon) atlas by [Smillie et al. 2019](https://www.sciencedirect.com/science/article/pii/S0092867419307329?via%3Dihub)
   - Technology: **10X Genomics**
   - **healthy controls**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Smillie_2019.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Smillie_2019.loom)
   

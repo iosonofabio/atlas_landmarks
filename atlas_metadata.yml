@@ -33,7 +33,7 @@ Baron_2016:
  'Tissue': 'pancreas'
  'Age': 'adult'
 
-Stitzel_2016:
+Lawlor_2016:
  'Normalization': 'counts per million reads'
  'Averaging': 'arithmetic after normalization'
  'Species': 'Homo Sapiens'
