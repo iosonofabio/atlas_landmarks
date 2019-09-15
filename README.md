@@ -1,5 +1,7 @@
 Developed for [northstar](https://github.com/iosonofabio/northstar).
 
+Files are in [loom](http://loompy.org/) format.
+
 For programmatic access, see the [TSV table](https://github.com/iosonofabio/atlas_landmarks/raw/master/table.tsv).
 
 ## Homo sapiens
