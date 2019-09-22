@@ -187,10 +187,14 @@ class AtlasAverager():
 if __name__ == '__main__':
 
     pa = argparse.ArgumentParser()
+    pa.add_argument('--dataset', action='append')
     pa.add_argument('--overwrite', action='store_true')
     args = pa.parse_args()
 
     datasets = discover_datasets()
+
+    if args.dataset:
+        datasets = {x: y for x, y in datasets.items() if x in args.dataset}
 
     for dsname, tissues in datasets.items():
         for tissue in tissues:
