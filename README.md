@@ -23,9 +23,9 @@ For programmatic access, see the [TSV table](https://github.com/iosonofabio/atla
   - Technology: **InDrop**
   - **no diabetes patients**: [averages](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/averages/Baron_2016.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Baron_2016.loom)
 
-- Blood (peripheral) by [Zanini, Robinson et al. 2018](https://www.pnas.org/content/115/52/E12363.short?rss=1)
+- Blood (peripheral) by [Zanini, Robinson et al. 2018](https://www.pnas.org/content/115/52/E12363.short)
   - Technology: **SmartSeq2**
-  - **healthy controls**: [averages](https://github.com/iosonofabio/atlas_ladmarks/raw/master/data/averages/Zanini_2018.loom) ⎮ [susamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Zanini_2018.loom)
+  - **healthy controls**: [averages](https://github.com/iosonofabio/atlas_ladmarks/raw/master/data/averages/Zanini_2018.loom) ⎮ [subsamples](https://github.com/iosonofabio/atlas_landmarks/raw/master/data/subsamples/Zanini_2018.loom)
 
 - B cells (peripheral blood) by [Croote et al. 2019](https://science.sciencemag.org/content/362/6420/1306.editor-summary)
   - Technology: **SmartSeq2**
